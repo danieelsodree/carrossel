@@ -48,12 +48,14 @@
     padding-top: 5px;
     padding-bottom: 10px;
     letter-spacing: 2px;
+    text-transform: capitalize;
 }
 
-.subname{
+.job{
     padding-bottom: 20px;
     letter-spacing: 10px;
     font-size: 12px;
+    text-transform: uppercase;
 }
 
 .text{
@@ -61,16 +63,50 @@
     text-align: center;
 }
 
-.btn{
+.box-btn{
+    margin-top: 10px;
+}
+
+.btn-left{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-right{
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-right:hover{
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.btn-left:hover{
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+}
+
+.btn-center{
     margin-top: 20px;
     padding: 7px 10px 7px 10px;
     font-size: 12px;
     font-weight: bold;
     background-color: white;
     cursor: pointer;
+    width: 150px;
+    height: 30px;
 }
 
-.btn:hover{
+.btn-center:hover{
     transition: 0.3s;
     color: indianred;
     background-color: black;
